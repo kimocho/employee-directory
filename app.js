@@ -4,7 +4,7 @@ import employees from '#db/employees';
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello employees');
+  res.send('Hello employees!');
 });
 
 app.get('/employees', (req, res) => {
